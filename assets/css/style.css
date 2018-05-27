@@ -1,0 +1,54 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 990px;
+    }
+}
+
+body {
+    background: url(../images/light_grey.png);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #00487F;
+    border-bottom: 1px solid #CCC;
+    box-shadow: 0px 1px .5px #CCC;
+}
+
+img {
+    border: 1px solid #CCC;
+    box-shadow: 0px 1px .5px #CCC;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 2.827em;
+}
+
+section {
+    line-height: 24px;
+    letter-spacing: .05em;
+}
+
+label {
+    font-size: 1.414em;
+}
+
+.nav .nav-item .nav-link {
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+.name {
+    color: #FFFFFF;
+    font-family: 'Song Myung', serif; 
+    font-size: 1.999em;
+}
+
+.name:hover {
+    color: #FFFFFF;
+}
+
+.portImage:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
