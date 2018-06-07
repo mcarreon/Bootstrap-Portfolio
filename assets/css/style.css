@@ -7,12 +7,31 @@
 body {
     background: url(../images/light_grey.png);
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
 }
 
 header {
     background-color: #00487F;
     border-bottom: 1px solid #CCC;
     box-shadow: 0px 1px .5px #CCC;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 20px 40px;
+    width: 100%;
+}
+
+.footerColor1 { background-color: rgba(155, 156, 156, 0.884); }
+.footerColor2 { background-color: #00487F; }
+.footerText{
+    color: white; 
+    font-family: 'Courgette', cursive;
+    font-size: .7em;
+    text-align: center;
+    padding-top: 10px;
 }
 
 img {
