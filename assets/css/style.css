@@ -7,13 +7,17 @@
 body {
     background: url(../images/light_grey.png);
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
+    min-height: 100vh;    
 }
 
 header {
     background-color: #00487F;
     border-bottom: 1px solid #CCC;
     box-shadow: 0px 1px .5px #CCC;
+}
+
+.container-fluid {
+    margin-bottom: 100px;
 }
 
 .footer {
